@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Microtransat")(type "KiCad")(uri "${KIPRJMOD}/Microtransat.kicad_sym")(options "")(descr ""))
+)
