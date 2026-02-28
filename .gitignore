@@ -1,5 +1,5 @@
 # vcstool
-libraries/*
+
 !libraries/libraries.repos
 
 # For PCBs designed using KiCad: https://www.kicad.org/
