@@ -11805,7 +11805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Adafruit 254:Adafruit_254"
 			(at 106.68 238.76 0)
 			(effects
 				(font
