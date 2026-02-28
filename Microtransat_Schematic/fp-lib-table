@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit 254")(type "KiCad")(uri "C:/Microtransat/Microtransat-PCB/libraries/Adafruit 254.pretty")(options "")(descr ""))
+  (lib (name "HT7833")(type "KiCad")(uri "C:/Microtransat/Microtransat-PCB/libraries/HT7833")(options "")(descr ""))
+  (lib (name "TXB0106PWR")(type "KiCad")(uri "C:/Microtransat/Microtransat-PCB/libraries/TXB0106PWR")(options "")(descr ""))
+)
