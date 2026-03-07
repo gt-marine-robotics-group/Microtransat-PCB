@@ -629,6 +629,10 @@
     [
       "b3769bf0-7ef3-4d04-ba3e-5e8a80f01320",
       "eStop Trigger"
+    ],
+    [
+      "ef83c155-5d1b-4294-b885-3978818ca0db",
+      "Regulators"
     ]
   ],
   "text_variables": {}
