@@ -616,11 +616,19 @@
     ],
     [
       "2a723dab-0fe3-42a5-a32e-d625b3338ba9",
-      "LED Interface"
+      "Relay Board Interface"
     ],
     [
       "a04f4943-a262-4b21-933a-c8835e5cae79",
       "Servo Interface"
+    ],
+    [
+      "82ad2dad-7ed6-420b-b0db-54c534917ded",
+      "eStop Reading"
+    ],
+    [
+      "b3769bf0-7ef3-4d04-ba3e-5e8a80f01320",
+      "eStop Trigger"
     ]
   ],
   "text_variables": {}
