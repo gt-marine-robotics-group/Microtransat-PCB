@@ -1407,7 +1407,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Light Tower Out\n"
+	(text "Relay Out"
 		(exclude_from_sim no)
 		(at 198.882 74.93 0)
 		(effects
