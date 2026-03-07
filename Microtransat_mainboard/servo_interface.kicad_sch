@@ -403,6 +403,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "PWM3"
+		(shape input)
+		(at 83.82 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01be89fb-bdd9-4d7c-a112-7e721dc309be")
+	)
 	(hierarchical_label "PWM2"
 		(shape input)
 		(at 83.82 91.44 180)
@@ -435,6 +446,79 @@
 			(justify right)
 		)
 		(uuid "900e0b6f-25ea-4716-915d-3daf15960584")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 88.9 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05ed2c14-ae80-4890-a324-2573b580bbf2")
+		(property "Reference" "J6"
+			(at 91.44 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 91.44 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ede6d5d-9e45-4491-91ca-7a5dbb49034c")
+		)
+		(pin "2"
+			(uuid "7a527579-a75d-428b-a305-ec14240890e8")
+		)
+		(pin "1"
+			(uuid "0bd2307a-6825-4e4a-bd86-f8ef96e6ab90")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
@@ -569,6 +653,73 @@
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1153666c-e4f5-40b4-b98d-48428112fcb4")
+		(property "Reference" "#PWR010"
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2645ee5-3bb5-4971-9106-191b81ea47e8")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -912,6 +1063,71 @@
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba5a62f1-c715-4de8-87eb-f4aab41f3c17")
+		(property "Reference" "#PWR09"
+			(at 77.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0ce29a-7432-4415-963e-7521dbdb1162")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
