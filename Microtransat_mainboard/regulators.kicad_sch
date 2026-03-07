@@ -5,27 +5,27 @@
 	(uuid "a9a49c24-b6e8-48d3-813a-65dc7eae01e6")
 	(paper "A5")
 	(lib_symbols
-		(symbol "GTMRG-Boards:Pololu_S13V30F5"
+		(symbol "Microtransat:Regulator"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at 0 10.414 0)
+			(property "Reference" "A601"
+				(at 0 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Pololu 5V 3A Regulator S13V30F5"
-				(at 0 8.382 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "GTMRG_Footprints:Pololu_S13V30F5"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.pololu.com/product/4082"
-				(at 0 -8.382 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,10 +52,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Pololu_S13V30F5_1_1"
+			(symbol "Regulator_1_1"
 				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
+					(start -6.35 5.08)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type solid)
@@ -64,8 +64,16 @@
 						(type background)
 					)
 				)
+				(text "Pololu 5V 3A Regulator"
+					(at 0.254 6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin input line
-					(at -8.89 3.81 0)
+					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -83,7 +91,7 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 0 0)
+					(at -8.89 -1.27 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -101,7 +109,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -8.89 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -119,7 +127,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -8.89 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -138,7 +146,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 0 180)
+					(at 8.89 -1.27 180)
 					(length 2.54)
 					(name "VOUT"
 						(effects
@@ -317,6 +325,83 @@
 		(uuid "a4f7d9c7-49d9-4e79-a4ce-ea14f41c8c11")
 	)
 	(symbol
+		(lib_id "Microtransat:Regulator")
+		(at 104.14 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "678196c4-12f4-4e00-a189-37e5392731af")
+		(property "Reference" "A601"
+			(at 104.14 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 104.394 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Microtransat:Pololu 5V 3A Regulator"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33e025e7-f34a-49a3-88be-02f8993bec9b")
+		)
+		(pin "3"
+			(uuid "bd04fe08-9238-4567-a084-500ebc70c7fb")
+		)
+		(pin "4"
+			(uuid "34c03696-86fe-446c-915c-913f264fa5a1")
+		)
+		(pin "1"
+			(uuid "e35463ae-db6f-4beb-94ce-deaef20e6405")
+		)
+		(pin "5"
+			(uuid "c378bddc-85d8-49ef-b76a-87346f9659a1")
+		)
+		(instances
+			(project ""
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/ef83c155-5d1b-4294-b885-3978818ca0db"
+					(reference "A601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 80.01 0)
 		(unit 1)
@@ -377,83 +462,6 @@
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/ef83c155-5d1b-4294-b885-3978818ca0db"
 					(reference "#PWR0601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GTMRG-Boards:Pololu_S13V30F5")
-		(at 104.14 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfd38a67-739c-4bb9-abdd-40f3cc76d1e2")
-		(property "Reference" "A601"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pololu 5V 3A Regulator S13V30F5"
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Microtransat:Pololu 5V 3A Regulator"
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/4082"
-			(at 104.14 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46d1959a-2a61-44e1-9ac9-8259133cf070")
-		)
-		(pin "3"
-			(uuid "5ef54e1a-35f0-4271-91f8-f430ff13f241")
-		)
-		(pin "4"
-			(uuid "0be25563-07f8-4ae2-8bc6-b2e6f7643775")
-		)
-		(pin "5"
-			(uuid "c3e933a1-c402-40b2-bf08-d47afcb39e6c")
-		)
-		(pin "2"
-			(uuid "e3502b92-53c3-4695-949b-532116d7b712")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/ef83c155-5d1b-4294-b885-3978818ca0db"
-					(reference "A601")
 					(unit 1)
 				)
 			)
