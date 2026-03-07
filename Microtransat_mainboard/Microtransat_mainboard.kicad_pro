@@ -613,6 +613,14 @@
     [
       "89914625-be83-416e-bb0d-b792f59b4aa6",
       "Root"
+    ],
+    [
+      "2a723dab-0fe3-42a5-a32e-d625b3338ba9",
+      "LED Interface"
+    ],
+    [
+      "a04f4943-a262-4b21-933a-c8835e5cae79",
+      "Servo Interface"
     ]
   ],
   "text_variables": {}
