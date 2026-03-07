@@ -4626,6 +4626,10 @@
 		(at 194.31 77.47)
 		(uuid "e9ebbf89-00d3-4fb9-a3fd-f38aad25f6ec")
 	)
+	(no_connect
+		(at 71.12 93.98)
+		(uuid "f3f17fff-27d5-4e78-82e4-1a7a7c02b99e")
+	)
 	(wire
 		(pts
 			(xy 93.98 88.9) (xy 93.98 91.44)
@@ -7956,7 +7960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 123.19 166.37 0)
 			(effects
 				(font
@@ -8785,7 +8789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 123.19 180.34 0)
 			(effects
 				(font
