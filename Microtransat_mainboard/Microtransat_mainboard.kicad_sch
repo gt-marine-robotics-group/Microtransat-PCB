@@ -4480,6 +4480,10 @@
 		(uuid "81530c8e-79ce-496c-855f-518022382d7d")
 	)
 	(no_connect
+		(at 96.52 168.91)
+		(uuid "01844999-0b7e-4341-b817-5d7e6b21c07b")
+	)
+	(no_connect
 		(at 62.23 130.81)
 		(uuid "027e733d-909d-4826-863d-f57b1d97fbf0")
 	)
@@ -4504,8 +4508,8 @@
 		(uuid "567e1464-77e3-48b3-93ff-993081bf4c24")
 	)
 	(no_connect
-		(at 96.52 168.91)
-		(uuid "7b1ac438-dba3-487a-b336-4954592ab520")
+		(at 96.52 161.29)
+		(uuid "7b301800-b889-4643-a425-065333601fb9")
 	)
 	(no_connect
 		(at 240.03 123.19)
@@ -4516,12 +4520,24 @@
 		(uuid "88b90b06-5a10-4b33-b293-d3476a6be87c")
 	)
 	(no_connect
+		(at 66.04 173.99)
+		(uuid "8fd4ee45-38b5-443d-832f-2fece909f08c")
+	)
+	(no_connect
 		(at 62.23 140.97)
 		(uuid "af1b6eaa-a5ca-4958-ba4b-ffcda35206dc")
 	)
 	(no_connect
 		(at 96.52 156.21)
 		(uuid "d3a74a2e-0403-412a-a504-3771a24fb739")
+	)
+	(no_connect
+		(at 66.04 168.91)
+		(uuid "d5e68517-3efd-43a9-9c80-b4d82dd6ce66")
+	)
+	(no_connect
+		(at 96.52 163.83)
+		(uuid "d9d9f05c-d260-4117-a721-9cd57e08d7c6")
 	)
 	(no_connect
 		(at 118.11 154.94)
@@ -4542,6 +4558,10 @@
 	(no_connect
 		(at 71.12 93.98)
 		(uuid "f3f17fff-27d5-4e78-82e4-1a7a7c02b99e")
+	)
+	(no_connect
+		(at 66.04 171.45)
+		(uuid "f858512f-4655-43f3-a6cd-b89968a1c973")
 	)
 	(wire
 		(pts
@@ -4843,7 +4863,7 @@
 		)
 		(uuid "178b4e2d-2e69-4263-b333-1bd8b6444f82")
 	)
-	(label "MODE"
+	(label "MODEIN"
 		(at 118.11 149.86 180)
 		(effects
 			(font
@@ -4853,17 +4873,7 @@
 		)
 		(uuid "1bd5ff95-2987-4103-a5d3-0a898aa4f8a0")
 	)
-	(label "CS0"
-		(at 66.04 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1cced6e2-61cf-4b9d-94e0-33a530242fa9")
-	)
-	(label "CS1"
+	(label "CS"
 		(at 26.67 171.45 180)
 		(effects
 			(font
@@ -4872,6 +4882,16 @@
 			(justify right bottom)
 		)
 		(uuid "1e2a19b8-7824-40a4-9630-039d0cc854cf")
+	)
+	(label "relay0"
+		(at 246.38 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "240be5eb-fc59-48b9-aa0e-c9730747a895")
 	)
 	(label "SCL"
 		(at 118.11 185.42 180)
@@ -4973,6 +4993,16 @@
 		)
 		(uuid "500e025b-c1ec-4e66-8ff5-50165d927a4f")
 	)
+	(label "MODEIN"
+		(at 196.85 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e97b590-9e99-4ecd-9c07-bdfd1838d2d6")
+	)
 	(label "INPWM0"
 		(at 118.11 144.78 180)
 		(effects
@@ -5032,26 +5062,6 @@
 			(justify right bottom)
 		)
 		(uuid "6efec1c7-75b7-4a93-ae1e-ccf19578d420")
-	)
-	(label "MOSI"
-		(at 66.04 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "729c14d0-e08b-4f18-8270-393e20e28ec7")
-	)
-	(label "SCLK"
-		(at 66.04 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75644092-b9c9-41a2-8738-0c145d1caee4")
 	)
 	(label "RX0"
 		(at 26.67 143.51 180)
@@ -5193,7 +5203,7 @@
 		)
 		(uuid "b3f8dd44-8cda-40ea-8111-b9b7d068a818")
 	)
-	(label "MISO"
+	(label "SDA"
 		(at 66.04 179.07 180)
 		(effects
 			(font
@@ -5201,7 +5211,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b6c4b8a6-26c4-4559-b91b-c4952d02f3ea")
+		(uuid "b6e16c3c-266f-4e22-85bc-4886ff057dbf")
 	)
 	(label "GND"
 		(at 96.52 181.61 0)
@@ -5233,7 +5243,7 @@
 		)
 		(uuid "b9bd5670-8d2d-42a0-b365-157058c679fd")
 	)
-	(label "CS0"
+	(label "CS"
 		(at 194.31 107.95 180)
 		(effects
 			(font
@@ -5303,16 +5313,6 @@
 		)
 		(uuid "c9538b19-ad86-4382-acd0-b3dd2a58484a")
 	)
-	(label "CS1"
-		(at 194.31 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd9d976f-afce-453f-9e15-ff7d1808ef83")
-	)
 	(label "MOSI"
 		(at 26.67 176.53 180)
 		(effects
@@ -5342,6 +5342,16 @@
 			(justify left bottom)
 		)
 		(uuid "d72e3f48-3647-4403-89a0-ecd72c7b96c0")
+	)
+	(label "SCL"
+		(at 66.04 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d78e0bc5-9a52-4111-b140-dc2a8e3dd221")
 	)
 	(label "MODE"
 		(at 194.31 105.41 180)
@@ -5393,6 +5403,16 @@
 		)
 		(uuid "e5413755-8df2-49fb-8e56-33892408bcd8")
 	)
+	(label "MODE"
+		(at 218.44 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e616f6ba-67df-4074-9a93-039fab3e97b1")
+	)
 	(label "PWM2"
 		(at 168.91 72.39 0)
 		(effects
@@ -5422,6 +5442,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5d253ae-b3ac-4e74-9205-33c8083804b1")
+	)
+	(label "relay0"
+		(at 194.31 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f62d6390-2965-4c20-924d-2a93be05949c")
 	)
 	(label "PPS"
 		(at 62.23 143.51 0)
@@ -6872,73 +6902,6 @@
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5099e8f3-03ac-408e-a30a-007ffcf68628")
-		(property "Reference" "#PWR033"
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 100.33 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b60e572-7f93-4b3f-b330-e5bf881cfde8")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8541,73 +8504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 66.04 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3de8cea-276c-46c0-a90a-1c91bf37f41d")
-		(property "Reference" "#PWR027"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 62.23 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 66.04 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3791498-a8b5-46dc-b960-3a5831fe63c9")
-		)
-		(instances
-			(project ""
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 44.45 93.98 0)
 		(mirror x)
@@ -9043,73 +8939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb82f919-dded-484e-869c-44ea1d9410d4")
-		(property "Reference" "#PWR030"
-			(at 92.71 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 100.33 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b351f3c6-57d9-4dc4-9488-2b406c685b48")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
 		(at 217.17 100.33 0)
 		(unit 1)
@@ -9377,10 +9206,82 @@
 				(justify left)
 			)
 		)
+		(pin "relay0" input
+			(at 246.38 48.26 180)
+			(uuid "63808dfa-7333-41b1-98d4-58cd463b2224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 20.32)
+		(size 21.59 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59916782-1ad9-4ed5-b79a-f51cd480dbbd")
+		(property "Sheetname" "Mode Switch"
+			(at 196.85 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mode_switch.kicad_sch"
+			(at 196.85 24.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 218.44 22.86 0)
+			(uuid "df29e1f9-ed30-4d80-a6fc-b6e73b565aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_IN" input
+			(at 196.85 22.86 180)
+			(uuid "13d18c2c-c5f4-463c-b01d-9a7a74d8f219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
+					(page "7")
 				)
 			)
 		)

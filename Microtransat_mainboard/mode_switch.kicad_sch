@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "aa595b03-6d5f-46a7-8e24-8e7bf10fdd8e")
+	(uuid "cf5c4274-8490-4270-be1e-d5bc662af900")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -874,307 +874,141 @@
 		)
 	)
 	(no_connect
-		(at 116.84 83.82)
-		(uuid "0c359e55-39ce-4107-a243-2677b74b1f15")
+		(at 127 63.5)
+		(uuid "07e10e82-a8da-4cba-95bb-59cd3b9aeb5c")
 	)
 	(no_connect
-		(at 91.44 91.44)
-		(uuid "16c85d39-26e0-41b0-b249-c9f37f64a480")
+		(at 127 55.88)
+		(uuid "83a9432d-5974-4ade-9d63-5fad721ecd1c")
 	)
 	(no_connect
-		(at 91.44 83.82)
-		(uuid "1890ad36-bf0d-40bf-8ba3-6c19c94a2632")
+		(at 152.4 55.88)
+		(uuid "b12b68be-9a29-4886-be1e-bd92c569580a")
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 121.92 113.03)
+			(xy 139.7 78.74) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cfe3e8e-84c1-43ca-bd3a-2afa10a5d9b6")
+		(uuid "2703bb2e-c757-4f64-815d-e81cf30bbf64")
 	)
 	(wire
 		(pts
-			(xy 121.92 120.65) (xy 121.92 125.73)
+			(xy 157.48 81.28) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72075e95-27d4-4510-9afe-92acfc650e51")
+		(uuid "32563e56-a803-42af-9962-869fa546b898")
 	)
 	(wire
 		(pts
-			(xy 116.84 97.79) (xy 121.92 97.79)
+			(xy 118.11 67.31) (xy 127 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dcb221e-3d6e-462e-b6f5-e324e2718524")
+		(uuid "62d3ab76-954f-4e29-84cd-26460ccaf875")
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 121.92 101.6)
+			(xy 157.48 69.85) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8157478-3bc3-44ce-905f-2589bbd9c9e9")
+		(uuid "934bc6a9-e647-422f-a87b-69afabc48274")
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 129.54 87.63)
+			(xy 152.4 69.85) (xy 157.48 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adba1a41-e85a-4dd6-a9f2-57bc090bb241")
+		(uuid "9af31af0-2e6c-4255-b25c-8f29449a17ec")
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 129.54 91.44)
+			(xy 152.4 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6c56849-aef4-4140-91e6-f0ca9eb29d97")
+		(uuid "b5553ae1-3461-45ec-a0cf-daf2c96cc7e2")
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 135.89 95.25)
+			(xy 152.4 67.31) (xy 171.45 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcce5690-6197-4414-85a9-8d56428caf4b")
+		(uuid "bec16cba-cae2-423f-b6ad-d031acef5a2f")
 	)
 	(wire
 		(pts
-			(xy 82.55 95.25) (xy 91.44 95.25)
+			(xy 165.1 63.5) (xy 165.1 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd12c50a-ef0e-4750-84fc-5ce8ad661718")
+		(uuid "d3598381-e100-4bf0-a0ef-55e9e1a15530")
 	)
 	(wire
 		(pts
-			(xy 104.14 106.68) (xy 104.14 110.49)
+			(xy 157.48 92.71) (xy 157.48 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d258e416-7e4e-405e-a1f3-8d500cad6110")
+		(uuid "f5124308-7905-4616-be02-d84ed2309ed1")
 	)
 	(hierarchical_label "RC_IN"
 		(shape input)
-		(at 82.55 95.25 180)
+		(at 118.11 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "669b30a8-02f8-4ad2-982e-62f7c8aeb081")
+		(uuid "c9835300-5ba4-4127-981d-036b811a842e")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 135.89 95.25 0)
+		(at 171.45 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "74f50d02-a0c9-4cfe-aafd-1ba6033aa766")
-	)
-	(symbol
-		(lib_id "Microtransat:RC_Switch")
-		(at 104.14 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43182b16-db43-4586-9663-316aceb054f0")
-		(property "Reference" "A4"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Microtransat:Pololu RC Switch"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57971dd3-8806-4893-85d5-a8bcee119b7e")
-		)
-		(pin "9"
-			(uuid "16947f1a-b850-4d41-b188-f7453941e5ea")
-		)
-		(pin "11"
-			(uuid "bd5b510c-2185-4fbf-9d89-316de77b4fca")
-		)
-		(pin "5"
-			(uuid "c41c6233-af87-4069-a983-cc9a2f1cda4f")
-		)
-		(pin "10"
-			(uuid "d7ede57c-0f13-4915-95d3-6638fb655965")
-		)
-		(pin "2"
-			(uuid "b4b51e5c-5a14-4b6e-975f-e3db4bb9225e")
-		)
-		(pin "3"
-			(uuid "667d84db-ff17-4408-a2be-12eec45f836c")
-		)
-		(pin "4"
-			(uuid "d95c25e4-fc5b-4e88-9ded-3796ec0f114a")
-		)
-		(pin "8"
-			(uuid "582ea892-c3f3-4dc9-b875-59d420f822f2")
-		)
-		(pin "6"
-			(uuid "3465e1cf-2163-4f44-88c4-399b7f52d96f")
-		)
-		(pin "7"
-			(uuid "f58ec3dc-3f4d-4b25-b5cd-2a5000c92b5a")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "A4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 121.92 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b329415d-8b1d-4b19-a05e-acec74938c2c")
-		(property "Reference" "R401"
-			(at 124.46 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 124.46 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 122.936 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 121.92 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9e9d6a8-f0ba-4024-b07d-faebff20a5d1")
-		)
-		(pin "1"
-			(uuid "98c4636f-3d9d-4141-aa71-f16a01e329e8")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fea2d34f-6d6d-486f-bac1-6e5c9861dee2")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 110.49 0)
+		(at 139.7 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b479823e-1519-4356-85a5-2e12a9ed794a")
-		(property "Reference" "#PWR0402"
-			(at 104.14 116.84 0)
+		(uuid "10d8e941-eda9-401e-9142-14fbd067584a")
+		(property "Reference" "#PWR027"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 115.57 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 110.49 0)
+			(at 139.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 110.49 0)
+			(at 139.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 110.49 0)
+			(at 139.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,78 +1052,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "61530f3f-c1d9-430a-9b97-832159307bd8")
+			(uuid "931412ec-5e54-4223-be57-479d685d57e1")
 		)
 		(instances
 			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "#PWR0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b620febc-e8d3-45f4-a71a-c0cd621a9a66")
-		(property "Reference" "#PWR0403"
-			(at 121.92 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01aa51e2-66f1-4ab5-a616-f2dbfd8024ff")
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "#PWR0403")
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1297,16 +1065,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 121.92 105.41 90)
+		(at 157.48 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c74ccd86-57b5-49e8-8751-9fddf30b06e6")
-		(property "Reference" "D401"
-			(at 125.73 105.7274 90)
+		(uuid "1ba6ba70-3912-4e49-9d79-02f9814ae428")
+		(property "Reference" "D2"
+			(at 161.29 77.7874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1083,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 125.73 108.2674 90)
+			(at 161.29 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1092,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 121.92 105.41 0)
+			(at 157.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 105.41 0)
+			(at 157.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1110,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 121.92 105.41 0)
+			(at 157.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1119,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 105.41 0)
+			(at 157.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,32 +1128,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fba97dc-1856-4eb1-863b-27a0d390f324")
+			(uuid "86e668ad-42ce-40fc-925e-74d38ff9ffbe")
 		)
 		(pin "2"
-			(uuid "a8965c13-e5e6-4a35-b4f5-8e924539828b")
+			(uuid "5fb56ad6-8532-451e-8f9c-869ad9c1e674")
 		)
 		(instances
 			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "D401")
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 129.54 87.63 0)
+		(lib_id "power:GND")
+		(at 157.48 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2219fa7-3319-4fa7-9cac-585ec420d257")
-		(property "Reference" "#PWR0404"
-			(at 129.54 91.44 0)
+		(uuid "21904b35-a372-4ea8-964d-c4eee6917eb6")
+		(property "Reference" "#PWR030"
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,8 +1161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 129.54 82.55 0)
+		(property "Value" "GND"
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 87.63 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 87.63 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,8 +1187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,12 +1197,244 @@
 			)
 		)
 		(pin "1"
-			(uuid "a17eeedc-df96-46fd-a5d6-d24c8445b010")
+			(uuid "b8febec9-08cf-4c00-a53f-062f1e3635b4")
 		)
 		(instances
 			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/b3769bf0-7ef3-4d04-ba3e-5e8a80f01320"
-					(reference "#PWR0404")
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Microtransat:RC_Switch")
+		(at 139.7 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36dfcb9d-daee-44df-9d97-99d980ca73dd")
+		(property "Reference" "A2"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Microtransat:Pololu RC Switch"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "535b3dff-bb1a-48ea-a1e3-c596ff3253c2")
+		)
+		(pin "9"
+			(uuid "e8e92edb-2f93-4e55-89cf-b61aef513381")
+		)
+		(pin "11"
+			(uuid "3288ad6b-5892-415a-8809-458bc4fd590d")
+		)
+		(pin "5"
+			(uuid "116f3ee2-5dcc-4083-b34f-7ab6bef60048")
+		)
+		(pin "10"
+			(uuid "008720b4-cbd1-4734-a2b5-98780b34d1c5")
+		)
+		(pin "2"
+			(uuid "55e842e1-be59-4b1f-b591-2650deaae41e")
+		)
+		(pin "3"
+			(uuid "52dbf464-d686-4ef0-8ece-ca97da1d6878")
+		)
+		(pin "4"
+			(uuid "8c332bdb-9910-4693-ae88-296f9cc88822")
+		)
+		(pin "8"
+			(uuid "33c8c42d-3f18-4f76-90aa-bf4b807e91f5")
+		)
+		(pin "6"
+			(uuid "44ae3e50-f419-46a0-9614-6d49b283b62a")
+		)
+		(pin "7"
+			(uuid "e5208d9e-b450-465a-bf49-75685331eee8")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 157.48 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f5850fb-020a-43ba-93ce-e8ac794eb60d")
+		(property "Reference" "R4"
+			(at 160.02 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 160.02 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 158.496 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d4e0bb4-4d91-4f35-a67f-bd395079eadb")
+		)
+		(pin "1"
+			(uuid "9140e8e4-68da-4575-bedd-c73503e62cc5")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc841dd-af77-460e-97f0-31241b9934bb")
+		(property "Reference" "#PWR033"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95bda4a4-b405-41b7-9e0d-f51da968f107")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/59916782-1ad9-4ed5-b79a-f51cd480dbbd"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
