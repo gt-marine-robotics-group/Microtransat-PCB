@@ -403,7 +403,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "PWM3"
+	(hierarchical_label "PWM2"
 		(shape input)
 		(at 83.82 102.87 180)
 		(effects
@@ -414,7 +414,7 @@
 		)
 		(uuid "01be89fb-bdd9-4d7c-a112-7e721dc309be")
 	)
-	(hierarchical_label "PWM2"
+	(hierarchical_label "PWM0"
 		(shape input)
 		(at 83.82 91.44 180)
 		(effects
@@ -425,7 +425,7 @@
 		)
 		(uuid "2b8d1987-a29e-4a9a-bff5-3b5525a59320")
 	)
-	(hierarchical_label "PWM0"
+	(hierarchical_label "PWM1"
 		(shape input)
 		(at 83.82 68.58 180)
 		(effects
@@ -436,7 +436,7 @@
 		)
 		(uuid "8838fdd0-71d8-4675-a010-679f4d1b1938")
 	)
-	(hierarchical_label "PWM1"
+	(hierarchical_label "PWM3"
 		(shape input)
 		(at 83.82 80.01 180)
 		(effects
@@ -457,7 +457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ed2c14-ae80-4890-a324-2573b580bbf2")
-		(property "Reference" "J6"
+		(property "Reference" "J12"
 			(at 91.44 104.1399 0)
 			(effects
 				(font
@@ -514,7 +514,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "J6")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -530,7 +530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08bbd291-526f-498e-a8e4-f9a86cb3038a")
-		(property "Reference" "J13"
+		(property "Reference" "J11"
 			(at 91.44 92.7099 0)
 			(effects
 				(font
@@ -587,7 +587,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -602,7 +602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09c3fda3-d3a9-4187-af80-8a436e7282a4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR038"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -652,7 +652,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR06")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -668,7 +668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1153666c-e4f5-40b4-b98d-48428112fcb4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR041"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -719,7 +719,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR010")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -735,7 +735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d528a7d-39bd-489b-bb9d-39ee687078be")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 91.44 69.8499 0)
 			(effects
 				(font
@@ -792,7 +792,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -808,7 +808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dbe12ed-5cdc-4833-b4ac-d91f90929dcc")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR035"
 			(at 87.63 71.12 0)
 			(effects
 				(font
@@ -859,7 +859,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR03")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -874,7 +874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce9eb8c-4e07-4673-aeef-36e2435a30d6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR040"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -924,7 +924,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR016")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -940,7 +940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e7b4a9b-57d3-4c86-b53b-6018b8a16d0e")
-		(property "Reference" "J12"
+		(property "Reference" "J10"
 			(at 91.44 81.2799 0)
 			(effects
 				(font
@@ -997,7 +997,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "J12")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1012,7 +1012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a76537c4-a2eb-4b7d-a4d0-6f9c3e242189")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR036"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR04")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1077,7 +1077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba5a62f1-c715-4de8-87eb-f4aab41f3c17")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR042"
 			(at 77.47 107.95 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR09")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1143,7 +1143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07a639b-2958-43df-aba1-dee665447dc4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR037"
 			(at 87.63 82.55 0)
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR05")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e136017f-f839-447e-85b3-c6d4b467c837")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR039"
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -1261,7 +1261,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/a04f4943-a262-4b21-933a-c8835e5cae79"
-					(reference "#PWR015")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
