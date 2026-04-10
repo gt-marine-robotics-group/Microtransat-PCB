@@ -1310,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ebb71d-26b3-48b0-b63f-4ee82d9ad2c5")
-		(property "Reference" "R8"
+		(property "Reference" "R401"
 			(at 144.78 109.2199 0)
 			(effects
 				(font
@@ -1364,7 +1364,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "R8")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f37bec-ad49-440c-811b-97c837b7691d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0402"
 			(at 142.24 121.92 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "#PWR044")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c450b54-212d-487a-bcfc-d38a51c4e5bc")
-		(property "Reference" "D7"
+		(property "Reference" "D401"
 			(at 115.57 92.7099 90)
 			(effects
 				(font
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "D7")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275e3d33-ddc4-4b93-a1fc-38f621b85ec6")
-		(property "Reference" "J13"
+		(property "Reference" "J401"
 			(at 87.63 92.7099 0)
 			(effects
 				(font
@@ -1589,7 +1589,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "J13")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82872050-de04-4803-89eb-94cbd00a9682")
-		(property "Reference" "K1"
+		(property "Reference" "K401"
 			(at 148.59 92.7099 0)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "K1")
+					(reference "K401")
 					(unit 1)
 				)
 			)
@@ -1685,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af1fcbbb-0f64-4afa-ba49-e8aaa0798b3e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0401"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 		(instances
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6/82ad2dad-7ed6-420b-b0db-54c534917ded"
-					(reference "#PWR043")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
