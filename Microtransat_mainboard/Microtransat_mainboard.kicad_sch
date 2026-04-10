@@ -2529,6 +2529,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -4410,10 +4596,22 @@
 		(uuid "2d7380d0-1320-42bb-8314-ad94f442e677")
 	)
 	(junction
+		(at 205.74 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a3a7bf-d841-4efa-8782-4363a95dc44b")
+	)
+	(junction
 		(at 29.21 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "471330b7-5a65-4151-bcbe-7b253ac1ab10")
+	)
+	(junction
+		(at 240.03 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f516696-dc2b-4327-af3a-2440a6b8061d")
 	)
 	(junction
 		(at 29.21 71.12)
@@ -4549,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 26.67) (xy 236.22 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433e04bc-4416-43dc-8161-c67660743630")
+	)
+	(wire
+		(pts
 			(xy 41.91 81.28) (xy 41.91 83.82)
 		)
 		(stroke
@@ -4569,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 43.18) (xy 246.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a89628-2a99-4ef7-9fac-a5a20b5cb92b")
+	)
+	(wire
+		(pts
 			(xy 76.2 91.44) (xy 93.98 91.44)
 		)
 		(stroke
@@ -4586,6 +4804,26 @@
 			(type default)
 		)
 		(uuid "5c043491-1ece-4393-aaaa-fec6e1f5b78e")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 205.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8c6af2-dc4e-4f2a-b65b-8a9578c6b4fb")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 217.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6540f56c-e726-475d-bf3c-106806299bc8")
 	)
 	(wire
 		(pts
@@ -4629,6 +4867,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 33.02) (xy 205.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fee78ac-3a19-44d6-ac55-83a6b990ea55")
+	)
+	(wire
+		(pts
 			(xy 59.69 91.44) (xy 60.96 91.44)
 		)
 		(stroke
@@ -4656,6 +4904,26 @@
 			(type default)
 		)
 		(uuid "9546a267-0bf0-465b-810b-bf7a568b1971")
+	)
+	(wire
+		(pts
+			(xy 215.9 26.67) (xy 228.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991841b3-3bd6-4ff6-979b-e166bb251355")
+	)
+	(wire
+		(pts
+			(xy 205.74 26.67) (xy 208.28 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d95a7d-59ab-496e-a357-9fdc6e34289b")
 	)
 	(wire
 		(pts
@@ -4699,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 246.38 43.18)
+			(xy 224.79 43.18) (xy 240.03 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4729,6 +4997,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 33.02) (xy 205.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e222a44f-f25d-48a7-ae55-5b0961470186")
+	)
+	(wire
+		(pts
+			(xy 240.03 43.18) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f8f3ac-e0d2-4501-a9e6-fdb5298ccf4d")
+	)
+	(wire
+		(pts
 			(xy 29.21 71.12) (xy 29.21 73.66)
 		)
 		(stroke
@@ -4747,13 +5035,13 @@
 		)
 		(uuid "01f48268-3ff9-44c8-9184-fa0a5f3cf94c")
 	)
-	(label "GPIO20"
-		(at 219.71 43.18 0)
+	(label "RC3"
+		(at 201.93 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "034d88a2-5ea4-4852-8643-43d22a496b78")
 	)
@@ -4797,7 +5085,7 @@
 		)
 		(uuid "178b4e2d-2e69-4263-b333-1bd8b6444f82")
 	)
-	(label "MODEIN"
+	(label "RC2"
 		(at 118.11 149.86 180)
 		(effects
 			(font
@@ -4836,6 +5124,16 @@
 			(justify right bottom)
 		)
 		(uuid "24f7d7db-fa1d-4c9c-aa15-934a1baa411e")
+	)
+	(label "GPIO20"
+		(at 218.44 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "255ab95d-7939-4f16-9f9e-85415d232c72")
 	)
 	(label "GPIO21"
 		(at 175.26 43.18 0)
@@ -4887,7 +5185,7 @@
 		)
 		(uuid "402ba973-be7c-475f-b245-fecc4ed8b57f")
 	)
-	(label "INPWM1"
+	(label "RC1"
 		(at 118.11 147.32 180)
 		(effects
 			(font
@@ -4907,7 +5205,7 @@
 		)
 		(uuid "49b40231-da4e-42f2-aec9-1aa1be850dfa")
 	)
-	(label "INPWM0"
+	(label "RC0"
 		(at 240.03 115.57 0)
 		(effects
 			(font
@@ -4927,17 +5225,7 @@
 		)
 		(uuid "500e025b-c1ec-4e66-8ff5-50165d927a4f")
 	)
-	(label "MODEIN"
-		(at 196.85 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e97b590-9e99-4ecd-9c07-bdfd1838d2d6")
-	)
-	(label "INPWM0"
+	(label "RC0"
 		(at 118.11 144.78 180)
 		(effects
 			(font
@@ -5077,7 +5365,7 @@
 		)
 		(uuid "9974b612-0be6-4999-822f-45839ea2931a")
 	)
-	(label "INPWM1"
+	(label "RC1"
 		(at 240.03 118.11 0)
 		(effects
 			(font
@@ -5217,7 +5505,7 @@
 		)
 		(uuid "be98fc67-7e10-49df-9955-29b131490b16")
 	)
-	(label "eSTOPIN"
+	(label "RC3"
 		(at 118.11 152.4 180)
 		(effects
 			(font
@@ -5287,7 +5575,7 @@
 		)
 		(uuid "d78e0bc5-9a52-4111-b140-dc2a8e3dd221")
 	)
-	(label "MODE"
+	(label "RC2"
 		(at 194.31 105.41 180)
 		(effects
 			(font
@@ -5296,16 +5584,6 @@
 			(justify right bottom)
 		)
 		(uuid "de44860f-98d9-400f-8048-6bc30ca8c770")
-	)
-	(label "eSTOPIN"
-		(at 193.04 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e0d59190-99a6-4c39-9fa8-eb2b3feb58b4")
 	)
 	(label "SDA"
 		(at 194.31 100.33 180)
@@ -5336,16 +5614,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5413755-8df2-49fb-8e56-33892408bcd8")
-	)
-	(label "MODE"
-		(at 218.44 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e616f6ba-67df-4074-9a93-039fab3e97b1")
 	)
 	(label "PWM2"
 		(at 168.91 72.39 0)
@@ -5396,6 +5664,74 @@
 			(justify left bottom)
 		)
 		(uuid "f77771ee-99fd-4aa2-b5dd-fd216778f1e7")
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 232.41 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0083f28e-e9ef-4769-b411-8e3e95bc8c8a")
+		(property "Reference" "JP2"
+			(at 232.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPIO20 to estop"
+			(at 232.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 232.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 232.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3bb20e2-47dd-4ed4-9539-acfc7464126a")
+		)
+		(pin "2"
+			(uuid "45964ef9-2e1e-483c-ac55-5b5ec56aea6b")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6029,7 +6365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -6724,7 +7060,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 86.36 60.96 90)
 			(effects
 				(font
@@ -7212,7 +7548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 123.19 144.78 0)
 			(effects
 				(font
@@ -8181,6 +8517,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 212.09 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c724b8e5-2ffd-4823-ac20-c2ef9f1a3449")
+		(property "Reference" "JP1"
+			(at 212.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC3 to GPIO20"
+			(at 212.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed6310e8-4f14-4df6-89a8-ed89906dd166")
+		)
+		(pin "2"
+			(uuid "b5adc165-7a1f-4686-93f5-45b321fdc737")
+		)
+		(instances
+			(project ""
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 180.34 270)
 		(unit 1)
@@ -8582,6 +8986,74 @@
 			(project "Microtransat_mainboard"
 				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
 					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 220.98 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dda973ad-6c5b-4591-b28e-5927159148ac")
+		(property "Reference" "JP3"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC3 to estop"
+			(at 220.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907046ed-73dd-417e-9659-12353e48a619")
+		)
+		(pin "2"
+			(uuid "c9c3fab8-8678-4357-aca1-dc5342450338")
+		)
+		(instances
+			(project "Microtransat_mainboard"
+				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -9153,68 +9625,6 @@
 		)
 	)
 	(sheet
-		(at 196.85 20.32)
-		(size 21.59 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "59916782-1ad9-4ed5-b79a-f51cd480dbbd")
-		(property "Sheetname" "Mode Switch"
-			(at 196.85 19.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mode_switch.kicad_sch"
-			(at 196.85 24.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 218.44 22.86 0)
-			(uuid "df29e1f9-ed30-4d80-a6fc-b6e73b565aa8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RC_IN" input
-			(at 196.85 22.86 180)
-			(uuid "13d18c2c-c5f4-463c-b01d-9a7a74d8f219")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 142.24 40.64)
 		(size 33.02 5.08)
 		(exclude_from_sim no)
@@ -9349,68 +9759,6 @@
 		)
 	)
 	(sheet
-		(at 193.04 40.64)
-		(size 26.67 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b3769bf0-7ef3-4d04-ba3e-5e8a80f01320")
-		(property "Sheetname" "eStop Trigger"
-			(at 193.04 39.9284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "estop_trigger.kicad_sch"
-			(at 193.04 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 219.71 43.18 0)
-			(uuid "dcc22175-00ae-4386-9ee6-820f47a658c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RC_IN" input
-			(at 193.04 43.18 180)
-			(uuid "14d46a2c-75de-46e2-8050-7669be35a9af")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Microtransat_mainboard"
-				(path "/89914625-be83-416e-bb0d-b792f59b4aa6"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 96.52 88.138)
 		(size 26.67 6.604)
 		(exclude_from_sim no)
@@ -9426,7 +9774,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ef83c155-5d1b-4294-b885-3978818ca0db")
-		(property "Sheetname" "Regulators"
+		(property "Sheetname" "Regulator"
 			(at 96.52 87.4264 0)
 			(effects
 				(font
