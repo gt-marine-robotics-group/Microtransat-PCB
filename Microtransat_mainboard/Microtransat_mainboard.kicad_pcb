@@ -104,7 +104,7 @@
 	(net 24 "/TX1")
 	(net 25 "/blue")
 	(net 26 "/relay0")
-	(net 27 "+12V")
+	(net 27 "+20V")
 	(net 28 "/Relay Board Interface/yellowOut")
 	(net 29 "/Relay Board Interface/eStopOut")
 	(net 30 "/Relay Board Interface/blueOut")
@@ -3885,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "2b957bde-ba3c-4c12-bac7-d8fad14bbdcf")
@@ -5637,7 +5637,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "+12V")
+			(net 27 "+20V")
 			(pinfunction "VIN")
 			(pintype "power_in")
 			(uuid "7fc5e1f9-482a-4e5d-b341-de9dce964def")
@@ -5648,7 +5648,7 @@
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "+12V")
+			(net 27 "+20V")
 			(pinfunction "VIN")
 			(pintype "power_in")
 			(thermal_bridge_angle 90)
@@ -6294,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "124K"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "e4deffaa-b848-4194-9a7f-ffed2d96caae")
@@ -13581,7 +13581,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "3ed04a85-473f-426f-8273-050459c47fff")
@@ -13679,7 +13679,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net 27 "+12V")
+			(net 27 "+20V")
 			(pintype "passive")
 			(uuid "26d0563f-758f-4db6-90fa-b5652fe35326")
 		)
@@ -14703,7 +14703,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "+12V")
+			(net 27 "+20V")
 			(pinfunction "A")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
